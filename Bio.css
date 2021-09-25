@@ -18,6 +18,9 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
+#interview{
+    align-items: center;
+}
 
 /*
   Work on navbar
