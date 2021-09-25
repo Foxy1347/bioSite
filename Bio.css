@@ -6,12 +6,14 @@ header{
     background-color: rgba(56, 255, 162, 1);
     text-align: center;
     color: rgba(56, 129, 255, 1);
-    padding-top: 3px;
+    width: 100%;
+    padding-top: 20px;
 }
 h3{
     text-align: center;
     font-family: 'Kaisei Tokumin', serif;
     padding-top: 3px;
+    color: rgb(56, 129, 255);
 }
 #portrait{
     display: block;
@@ -19,27 +21,46 @@ h3{
     margin-right: auto;
 }
 #interview{
-    align-items: center;
-}
-
-/*
-  Work on navbar
-
-#navbar{
+    margin: auto;
+    width: 50%;
     text-align: center;
+    color: #33A6E8;
+    font-family: 'Comfortaa', cursive;
 }
-#navbar a:link {
-    display: grid;
-    grid-template-columns: auto auto;
-    color: black;
-    text-align: center;
+dt{
+    font-weight: 600;
+    color:#38FFA2;
+    font-family: 'Comfortaa', cursive;
+}
+dd{
+    margin: 0;
+    color: #3881FF;
+    font-family: 'Comfortaa', cursive;
+}
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+.nav a:link{
     text-decoration: none;
+    color: #33A6E8;
 }
-*/
-#image-gallery{
-    display: grid;
-    grid-template-columns: auto auto;
-    padding-top: 10px;
+.nav a:visited{
+    color: #33A6E8;
+}
+
+.image-gallery{
+    display: flex;
+    justify-content: center;
 }
 #hobby-gallery{
     display: grid;
@@ -47,11 +68,26 @@ h3{
     padding-top: 10px;
 }
 .grid-item1{
-    float: right;
-    margin: auto;   
+    float: center;   
 }
 .grid-item2{
-    float: left;
-    margin: auto;
+    float: center;
 }
-
+#footer{
+    width: 100%;
+    background-color: #38FFA2;
+    position: absolute;
+    padding-bottom: 20px;
+}
+#back-to-landing{
+    text-decoration: none;
+    color: #33A6E8;
+    margin-left: 30px;
+    padding-right: 15px;
+}
+#footer a:link{
+    float:right;
+}
+#footer a:hover {
+    text-decoration: underline;
+}
