@@ -75,6 +75,7 @@ figcaption{
     text-align: center;
     color: #33A6E8;
     font-family: 'Kaisei Tokumin', serif;
+    font-weight: 400;
 }
 .grid-item1{
     float: center; 
